@@ -1,0 +1,33 @@
+.df_big{
+    display: flex;
+}
+.small_df{
+    display: flex;
+}
+.color_green{
+color: green;
+}
+.df{
+display: flex;
+background-color: #00B074;
+padding: 10px;
+border-radius: 10px;
+}
+.dfg{
+display: flex;
+gap: 20px;
+margin-left: 600px;
+margin-top: -50px;
+}
+.style_btn{
+background-color: white;
+padding: 10px;
+border-radius: 10px;
+color: #FF5B5B;
+border-color: #FF5B5B;
+}
+.style_select{
+background-color: #00B074 ;
+border-color: #00B074;
+color: white;
+}

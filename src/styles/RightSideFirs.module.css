@@ -1,0 +1,108 @@
+.table-container {
+  margin: 40px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.table-heading {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.styled-table th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  text-align: left;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.styled-table td {
+  padding: 15px;
+  text-align: left;
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.styled-table tr:hover {
+  background-color: #f1f1f1;
+  transform: translateY(-2px);
+}
+.stars{
+  margin-left: 33px;
+}
+
+.styled-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.styled-table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.styled-table td, .styled-table th {
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.styled-table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.styled-table tr:nth-child(even):hover {
+  background-color: #f1f8e9;
+  margin-left: 990px;
+}
+
+.styled-table tr:nth-child(odd):hover {
+  background-color: #f1f8e9;
+}
+
+.styled-table th,
+.styled-table td {
+  border-right: 1px solid #f1f8e9;
+}
+
+.styled-table th:last-child,
+.styled-table td:last-child {
+  border-right: none;
+}
+.table-container{
+  margin-left: -500px;
+  margin-top: -1020px;
+}
+.padding tr{
+  width: 10px;
+}
+.mleft{
+  margin-left: 0px;
+}
+.img_ramka{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.black{
+  margin-left: -1px;
+}
+.width{
+  width:250px;
+}
