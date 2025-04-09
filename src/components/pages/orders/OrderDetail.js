@@ -2,10 +2,10 @@ import React from 'react'
 import Styles from "@/styles/OrderDetail.module.css"
 import PageTitle from '@/components/common/PageTitle'
 import Image from 'next/image'
-import LeftSideFirst from '@/components/LeftSideFirst'
-import LeftSideSecond from '@/components/LeftSideSecond'
-import RightSideFirt from '@/components/RightSideFirt'
-import RightSideSecond from '@/components/RightSideSecond'
+import LeftSideFirst from '@/components/pages/orders-detail/LeftSideFirst'
+import LeftSideSecond from '@/components/pages/orders-detail/LeftSideSecond'
+import RightSideFirt from '@/components/pages/orders-detail/RightSideFirt'
+import RightSideSecond from '@/components/pages/orders-detail/RightSideSecond'
 
 function OrderDetail() {
   return (
