@@ -42,7 +42,7 @@ export default function Table() {
       </thead>
       <tbody>
         {orderListData.map((item) => (
-          <TableRow key={item.userId} item={item} />
+          <TableRow key={item.id} item={item} />
         ))}
       </tbody>
     </table>
@@ -77,9 +77,9 @@ function TableRow(props) {
     <tr
     className={styles["tr"]}
     style={{ cursor: "pointer" }}
-    onClick={() => goToDetails(item.userId)}
+    onClick={() => goToDetails(item.id)}
   >
-      <td className={styles["td"]}>#{item.userId}</td>
+      <td className={styles["td"]}>#{item.id}</td>
       <td className={styles["td"]}>{item.date}</td>
       <td className={styles["td"]}>{item.userName}</td>
       <td className={styles["td"]}>{item.location}</td>
