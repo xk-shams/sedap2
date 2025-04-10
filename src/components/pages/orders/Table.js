@@ -69,12 +69,16 @@ function TableHead({ name }) {
 
 function TableRow(props) {
   const { item } = props;
+  const router = useRouter();
+  const goToDetails = (itemId) => {
+    router.push(`/orders/${itemId}`);
+  }
   return (
     <tr
-      className={styles["tr"]}
-      style={{ cursor: "pointer" }}
-      onClick={() => goToDetails(item.userId)}
-    >
+    className={styles["tr"]}
+    style={{ cursor: "pointer" }}
+    onClick={() => goToDetails(item.userId)}
+  >
       <td className={styles["td"]}>#{item.userId}</td>
       <td className={styles["td"]}>{item.date}</td>
       <td className={styles["td"]}>{item.userName}</td>
